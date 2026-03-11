@@ -44,13 +44,12 @@ The system uses example LinkedIn posts from a dataset and applies **few-shot pro
 
 ## Project Structure
 
-LinkedIn-Post-Recommender
-│
+```
+LinkedIn-Post-Recommender/
 ├── data/
-│ └── processed_posts.json
-│
+│   └── processed_posts.json
 ├── llm_helper.py
 ├── few_shot.py
 ├── post_generator.py
-│
 └── README.md
+```
